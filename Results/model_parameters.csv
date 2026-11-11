@@ -1,0 +1,14 @@
+parameter,value
+W,10.0
+e,2.0
+c,1.0
+h0,0.3
+h1,0.125
+delta,0.95
+p_win,0.3
+p_loss,0.7
+beta_continue,0.02
+beta_loss,0.1
+lambda_risk,2.0
+q_override_scenarios,"[0.1, 0.3, 0.5]"
+consecutive_override_threshold_K,3
