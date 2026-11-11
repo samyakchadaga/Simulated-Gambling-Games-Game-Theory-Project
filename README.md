@@ -40,14 +40,12 @@ hypothetical user profiles to calculate a Behavioral Risk Score (BRS).
 
 ``` text
 ├── README.md
-├── repeated_game_impaired_control.py
-├── profile_simulation.py
+├── Codes
+    └── repeated_gambling_simulation_variable_N.py
+    └── repeated_game_impaired_control.py
 ├── results/
-└── report/
-    └── Simulated_Gambling_Games_Project_IEEE_Format.pdf
 ```
 
-*Update filenames to match the files added to the repository.*
 
 ## Run
 
@@ -55,7 +53,7 @@ Requires Python 3 and the packages used by the scripts.
 
 ``` bash
 git clone https://github.com/<your-username>/game-theoretic-simulated-gambling.git
-cd game-theoretic-simulated-gambling
+cd game-theoretic-simulated-gambling/Results
 python repeated_game_impaired_control.py
 ```
 
@@ -77,9 +75,3 @@ validated predictions of real-world behavior**.
 
 
 Department of Electronics, SVNIT Surat, India.
-
-## Report
-
-See the project report in the `report/` directory for the full
-mathematical formulation, parameter values, results, figures, and
-references.
